@@ -25,15 +25,15 @@ NB: The slider div needs a class or ID to enable referencing via jQuery.
 
 Minimum requirement is:
 
-*$("#Slider").slidify;*
+    $("#Slider").slidify;
 
 Although you will probably want to style the CSS to give the Slider container a height and width (especially if you use floating elements)
 
 If you want to specify a slide class, and a heigh and width of the slider container you can set those options like this:
 
-$("#HeaderSections").slidify({
-  sliderWidth:990,
-  sliderHeight:550,
-  slideSelector:".slide"
-});
+    $("#HeaderSections").slidify({
+      sliderWidth:990,
+      sliderHeight:550,
+      slideSelector:".slide"
+    });
 

@@ -31,7 +31,7 @@ Although you will probably want to style the CSS to give the Slider container a 
 
 If you want to specify a slide class, and a heigh and width of the slider container you can set those options like this:
 
-    $("#HeaderSections").slidify({
+    $("#Slider").slidify({
       sliderWidth:990,
       sliderHeight:550,
       slideSelector:".slide"

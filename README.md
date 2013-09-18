@@ -12,12 +12,12 @@ You will need to create (1) the HTML for the slider: a container div and slide d
 -------
 
 To create a slider first create a DIV with subelements (the slides). eg:
-'''
-<div id="Slider">
-   <div class="slide">Slide content</div>
-   <div class="slide">Slide 2 content</div>
-</div>
-'''
+
+    <div id="Slider">
+       <div class="slide">Slide content</div>
+       <div class="slide">Slide 2 content</div>
+    </div>
+
 NB: The slider div needs a class or ID to enable referencing via jQuery.
 
 02 jQuery

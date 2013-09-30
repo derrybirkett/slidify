@@ -22,7 +22,7 @@
         
         var settings = $.extend({
             // These are the defaults.
-            sliderClass:"slider"
+            sliderClass:"slider",
             sliderHeight:$(this).height(),
             sliderWidth:$(this).width(),
             slideSelector: ".slide",

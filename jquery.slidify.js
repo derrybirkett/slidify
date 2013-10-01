@@ -22,7 +22,7 @@
         
         var settings = $.extend({
             // These are the defaults.
-            sliderClass:"slider"
+            sliderClass:"slider",
             sliderHeight:$(this).height(),
             sliderWidth:$(this).width(),
             slideSelector: ".slide",
@@ -38,7 +38,7 @@
     
         $(this).wrap('<div class="'+settings.sliderClass+'" />');
 
-	    	$('.Slider').css({
+	    	$('.'+settings.sliderClass).css({
 	    		"overflow":"hidden",
 	    		"height":settings.sliderHeight,
 	    		"width":settings.sliderWidth
@@ -59,7 +59,8 @@
 		// Set Attr: position relative & width
     	$(this).css({
         	"position":"relative",
-        	"width":containerWidth
+        	"width":containerWidth,
+        	"height":settings.sliderHeight
     	});
         
         /* 
@@ -70,7 +71,9 @@
         */
         
         $(settings.slideSelector, $(this)).css({
-	        "float":"left"
+	        "float":"left",
+        	"width":settings.sliderWidth,
+        	"height":settings.sliderHeight	        
 		});
         
         /*

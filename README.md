@@ -1,4 +1,4 @@
-Slidify
+Slidify v0.2
 =======
 
 Create an ad hoc jQuery Slider on an Element (with sub-elements, obviously)
@@ -37,4 +37,4 @@ If you want to specify a slide class, and a heigh and width of the slider contai
       slideSelector:".slide"
     });
 
-It's possible it doesn't work well - it's version 0.1.  So if you feel kind or angry maybe ping me on twitter @derrybirkett to vent.
+It's possible it doesn't work well - it's a pre-release Beta: So if you feel kind or angry maybe ping me on twitter @derrybirkett to vent.

@@ -38,3 +38,12 @@ If you want to specify a slide class, and a heigh and width of the slider contai
     });
 
 It's possible it doesn't work well - it's a pre-release Beta: So if you feel kind or angry maybe ping me on twitter @derrybirkett to vent.
+
+## Shout me a coffee
+If you found this Repo useful you could offer me a coffee! I will be so happy! ☕️ via [PayPal](https://www.paypal.me/derrybirkett/5) 
+
+<a href="https://www.paypal.me/derrybirkett/5">
+  <img width="160" height="41" src="http://derrybirkett.com/wp-content/uploads/2018/03/paypal-badge.png" >
+</a>
+
+Follow [@derrybirkett](https://twitter.com/derrybirkett) on Twitter [![Twitter Follow](https://img.shields.io/twitter/follow/derrybirkett.svg?style=social&label=Follow)]()
